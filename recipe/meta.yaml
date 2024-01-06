@@ -1,5 +1,5 @@
 {% set name = "viv" %}
-{% set version = "2023.1003" %}
+{% set version = "2024.1004" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/viv-{{ version }}.tar.gz
-  sha256: cb03f4afcabe5fead1e701d4c60d7e6a7575a4f005c0d82376057a01f8261a3e
+  sha256: 8c6f5c8721e1ced1d1e829de33883f9195284ad686a0de436175c4f7f16b71ae
 
 build:
   entry_points:
